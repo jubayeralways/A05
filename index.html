@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GitHub | Sign In</title>
+        <!-- fav icon. -->
+        <link rel="shortcut icon" href="assets/github-logo.png"
+            type="image/x-icon">
+        <!-- fav icon. -->
+        <!-- tailwind & daisy link ... -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet"
+            type="text/css" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <!-- tailwind & daisy link ... -->
+        <!-- font icon link -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- font icon link -->
+
+        <style>
+            *{
+                font-family: "Outfit", sans-serif;
+            }
+        </style>
+
+    </head>
+    <body class="min-h-screen max-w-md bg-base-200 mx-auto text-center">
+        <div class="logo w-[150px] mx-auto pt-10 pb-5">
+            <img src="assets/github-logo.png" alt="github-logo.png">
+        </div>
+        <h1 id="text-2xl font-bold">GitHub Issues Tracker</h1>
+        <p id="text-xl font-normal bg-base-200">sign in to manage your
+            issues</p>
+        <div class="form pt-10">
+            <div
+                class="card bg-base-100 w-full max-w-sm shrink-0 shadow mx-auto rounded-2xl">
+                <div class="card-body">
+                    <fieldset class="fieldset">
+                        <label
+                            class="label text-neutral text-bold">Username</label>
+                        <input id="input-user"
+                            type="text"
+                            class="input rounded-xl bg-base-200"
+                            placeholder="Enter Username" />
+                        <label
+                            class="label text-neutral text-bold">Password</label>
+                        <input id="input-pin" maxlength="8" minlength="1"
+                            type="password"
+                            class="input rounded-xl bg-base-200"
+                            placeholder="password" />
+
+                        <button id="sign-btn"
+                            class="btn btn-primary mt-4 rounded-xl">Sign
+                            in</button>
+                    </fieldset>
+                    <!-- /// -->
+                    <div class="flex items-center my-6">
+                        <div class="flex-grow border-t border-gray-300"></div>
+                        <span class="mx-4 text-blackJ">OR</span>
+                        <div class="flex-grow border-t border-gray-300"></div>
+                    </div>
+
+                    <div
+                        class="card card-border bg-base-50 w-11/12 mx-auto pt-3">
+                        <div class="card-body ">
+                            <p class="pb-6 mx-auto text-gray-500">Demo
+                                cridentials;</p>
+                            <p>Username : admin</p>
+                            <p>password : admin123</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ...... -->
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
